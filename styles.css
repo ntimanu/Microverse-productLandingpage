@@ -1,0 +1,31 @@
+#nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    display: inline;
+  }
+  #form {
+    background-color: yellow;
+    padding: 20px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    #form {
+      display: none;
+    }
+  }
+  #nav {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  
+  #nav > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  
